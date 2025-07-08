@@ -118,9 +118,9 @@ export const App = () => {
 
     if (toggle) {
       if (refill === "Сразу на год") {
-        finalSum = "3 000 ₽";
+        finalSum = "4 000 ₽";
       } else {
-        finalSum = "300 ₽";
+        finalSum = "400 ₽";
       }
     } else {
       if (refill === "Сразу на год") {
@@ -373,7 +373,7 @@ export const App = () => {
                 style={{ color: "white" }}
                 className={appSt.productText}
               >
-                {refill === "Сразу на год" ? "3 000" : "300"} ₽ за{" "}
+                {refill === "Сразу на год" ? "4 000" : "400"} ₽ за{" "}
                 {refill === "Сразу на год" ? "год" : "месяц"}
               </Typography.Text>
             )}

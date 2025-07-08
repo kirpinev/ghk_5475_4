@@ -105,6 +105,8 @@ export const App = () => {
     window.gtag("event", "5474_get_sub", {
       variant_name: "5475_4",
     });
+    LS.setItem(LSKeys.ShowThx, true);
+    setThx(true);
   };
 
   const getInfo = () => {
